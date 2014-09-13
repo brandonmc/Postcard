@@ -13,6 +13,8 @@
 		A84934BB19C387E700AE18C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A84934BA19C387E700AE18C6 /* Images.xcassets */; };
 		A84934BE19C387E700AE18C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A84934BC19C387E700AE18C6 /* LaunchScreen.xib */; };
 		A84934CA19C387E700AE18C6 /* Test2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84934C919C387E700AE18C6 /* Test2Tests.swift */; };
+		A84934D419C39F5F00AE18C6 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A84934D319C39F5F00AE18C6 /* SagradaFamilia.jpeg */; };
+		A84934D619C3A3FB00AE18C6 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A84934D519C3A3FB00AE18C6 /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A84934C319C387E700AE18C6 /* Test2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84934C819C387E700AE18C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A84934C919C387E700AE18C6 /* Test2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2Tests.swift; sourceTree = "<group>"; };
+		A84934D319C39F5F00AE18C6 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+		A84934D519C3A3FB00AE18C6 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		A84934B119C387E700AE18C6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A84934D519C3A3FB00AE18C6 /* AlbertEinsteinStamp.jpg */,
+				A84934D319C39F5F00AE18C6 /* SagradaFamilia.jpeg */,
 				A84934B219C387E700AE18C6 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A84934B919C387E700AE18C6 /* Main.storyboard in Resources */,
+				A84934D419C39F5F00AE18C6 /* SagradaFamilia.jpeg in Resources */,
+				A84934D619C3A3FB00AE18C6 /* AlbertEinsteinStamp.jpg in Resources */,
 				A84934BE19C387E700AE18C6 /* LaunchScreen.xib in Resources */,
 				A84934BB19C387E700AE18C6 /* Images.xcassets in Resources */,
 			);
@@ -339,6 +347,7 @@
 				INFOPLIST_FILE = Test2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -349,6 +358,7 @@
 				INFOPLIST_FILE = Test2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
