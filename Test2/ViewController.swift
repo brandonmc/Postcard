@@ -32,6 +32,7 @@ class ViewController: UIViewController {
     @IBAction func sendMaiButtonPressed(sender: UIButton) {
         
         // Code will evaluate when we press the button
+        // Adding a comment here
         MessageLabel.hidden = false
         MessageLabel.text = enterMessageTextField.text
         enterMessageTextField.text = ""
